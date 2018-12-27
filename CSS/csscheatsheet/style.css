@@ -1,0 +1,122 @@
+*{
+	/*Reset Function
+	margin :0
+	padding: 0
+	*/
+}
+
+body{
+	background: coral
+	color:red
+	font:normal 160px sans-serif;
+	line-height: 1.3em
+}
+.button{
+	background-color: #333;
+	color: 10px 15px;
+	background: none;
+
+}
+
+
+a{
+	text-decoration: bold;
+	color:#000;
+}
+
+a:hover{
+	color:red;
+}
+
+a:active{
+	color:green;
+}
+
+/*a:visited{
+	color:grey;
+}*/
+
+.container{
+	width :80%;
+	margin :auto;
+
+}
+.button{
+	background-color: red;
+	color: 10px 15px;
+	background: none;
+
+}
+
+
+.box-1{
+	background : #333;
+	color : #fff; 
+	margin: 10px coral ;
+	border:  5px red solid;
+	border-bottom-width: 10px;/*alters the bottom border*/
+	border-bottom-style: double;	
+	padding:20px;
+	margin: 20px 0px;
+}
+
+.box-1 h1{
+	/*the h1 tag part*/
+	font-family: Tahoma;
+	font-weight 
+}
+
+.box-2{
+	border:20px;
+}
+
+.categories{
+	border:1px #ccc solid;
+	padding:10px;
+	border-radius:15px;
+}
+
+.categories h2{
+	text-align: center;
+}
+
+.categories ul{
+	padding: 2px;
+	list-style: square;/*none removes the bullets*/
+
+}
+
+.categories li{
+	padding-bottom: :6px;
+	border-bottom:  10px red;
+
+	/*list-style-image: url('484227672-612x612.jpg')	resize the image first*/
+}
+
+.myform{
+	padding: 20px;
+
+}
+
+.myform .form-group{
+	padding-bottom: 15px;
+}
+
+.myform label{
+	display: block;
+}
+
+.myform input[type="text"],.myform textarea{
+	padding: 8px;
+	width: 100%;
+}
+
+
+.myform input[type="submit"]{
+	background-color: #333;
+	color: 10px 15px;
+	background: none;
+
+}
+
+
