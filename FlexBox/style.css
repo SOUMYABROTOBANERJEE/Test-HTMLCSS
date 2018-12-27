@@ -1,0 +1,34 @@
+body{
+	padding: 10px;
+	border: 1px red solid;
+
+}
+
+
+
+
+.container-1{
+	display: flex;
+	/*align-items: flex-start;
+	align-items:flex-end;   (by default it is stretch)*/
+}	align-items:center;
+
+.container-1 div{
+	border: 10px #ccc solid;
+	padding: 10px;
+}
+
+.box1{
+	flex: 2;
+	order: 1;
+}
+
+.box2{
+	flex: 2;
+	order: 3;
+}
+
+.box3{
+	flex: 2;
+	order: 2;
+}
